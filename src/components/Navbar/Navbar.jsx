@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import Logo from "../../assets/logo.png";
 import { NavLink, Link } from "react-router-dom";
 import { FaCaretDown } from "react-icons/fa";
-import ResponsiveMenu from "./ResponsiveMenu";
+// import ResponsiveMenu from "./ResponsiveMenu";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 
 export const NavbarLinks = [
@@ -49,24 +50,37 @@ const Navbar = ({ handleOrderPopup }) => {
     return (
         <>
             <nav className="fixed top-0 right-0 w-full z-50 bg-white backdrop-blur-sm text-black shadow-md">
-                <div className="bg-gradient-to-r from-primary to-secondary text-white ">
+                {/* <div className="bg-gradient-to-r from-primary to-secondary text-white">
                     <div className="container py-[2px] sm:block hidden">
                         <div className="flex items-center justify-between">
                             <p className="text-sm">20% off on next booking</p>
                             <p>mobile no. +91 123456789</p>
                         </div>
                     </div>
+                </div> */}
+
+                <div className="bg-gradient-to-r from-primary to-secondary text-white">
+                    <div className="container mx-auto py-2 sm:block hidden">
+                        <div className="flex items-center justify-between sm:flex-row flex-col">
+                            <p className="text-sm mb-2 sm:mb-0">
+                                🎉 20% off on your next booking!
+                            </p>
+                            <p className="text-sm font-medium">
+                                📞 Call us: <a href="tel:+91123456789" className="underline">+91 123456789</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <div className="container py-3 sm:py-0">
                     <div className="flex justify-between items-center">
-                        <div className="flex items-center gap-4  font-bold text-2xl">
+                        <div className="flex items-center gap-4 font-bold text-2xl">
                             <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
                                 <img src={Logo} alt="" className="h-16" />
                             </Link>
                             {/* <span>TCJ Tourism</span> */}
                         </div>
                         <div className="hidden md:block">
-                            <ul className="flex items-center gap-6 ">
+                            <ul className="flex items-center gap-6">
                                 <li className="py-4">
                                     <NavLink to="/" activeClassName="active">
                                         Home
@@ -142,7 +156,7 @@ const Navbar = ({ handleOrderPopup }) => {
                         </div>
                     </div>
                 </div>
-                <ResponsiveMenu setShowMenu={setShowMenu} showMenu={showMenu} />
+                {/* <ResponsiveMenu setShowMenu={setShowMenu} showMenu={showMenu} /> */}
             </nav>
         </>
     );
