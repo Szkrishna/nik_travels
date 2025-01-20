@@ -1,2 +1,2 @@
 # nik_travels
-Complete Responsive Tour and Travel Website using ReactJS and Tailwind CSS
+Complete Responsive Tour and Travel Website using vite+react and Tailwind CSS
