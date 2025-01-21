@@ -1,12 +1,13 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
-import Logo from "../../assets/logo-transparent-png.png";
+import Logo from "../../assets/logo.png";
 import { NavLink, Link } from "react-router-dom";
 import { FaCaretDown } from "react-icons/fa";
 import ResponsiveMenu from "./ResponsiveMenu";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const NavbarLinks = [
     {
         id: 1,
@@ -32,14 +33,17 @@ export const NavbarLinks = [
 
 const DropdownLinks = [
     {
+        id: 5,
         name: "Our Services",
         link: "/#services",
     },
     {
+        id: 6,
         name: "Top Brands",
         link: "/#mobile_brands",
     },
     {
+        id: 7,
         name: "Location",
         link: "/#location",
     },
@@ -108,11 +112,8 @@ const Navbar = ({ handleOrderPopup }) => {
                                     <div className="absolute -left-9 z-[9999] hidden w-[150px] rounded-md bg-white p-2 text-black group-hover:block shadow-md ">
                                         <ul className="space-y-3">
                                             {DropdownLinks.map((data) => (
-                                                <li key={data.name}>
-                                                    <a
-                                                        className="inline-block w-full rounded-md p-2 hover:bg-primary/20"
-                                                        href={data.link}
-                                                    >
+                                                <li key={data.id}>
+                                                    <a className="inline-block w-full rounded-md p-2 hover:bg-primary/20" href={data.link}>
                                                         {data.name}
                                                     </a>
                                                 </li>
