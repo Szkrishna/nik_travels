@@ -9,6 +9,7 @@ import BannerImg from "../assets/cover-women.jpg";
 import BlogsComp from "../components/Blogs/BlogsComp";
 import Banner from "../components/Banner/Banner";
 import Banner2 from "../assets/travel-cover2.jpg";
+import Testimonial from "../components/Testimonial/Testimonial";
 
 const Home = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
@@ -30,6 +31,7 @@ const Home = () => {
         <BlogsComp />
         <Banner />
         <BannerPic img={Banner2} />
+        <Testimonial />
       </div>
     </>
   );
