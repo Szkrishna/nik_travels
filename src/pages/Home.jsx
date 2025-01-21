@@ -11,6 +11,7 @@ import Banner from "../components/Banner/Banner";
 import Banner2 from "../assets/travel-cover2.jpg";
 import Testimonial from "../components/Testimonial/Testimonial";
 import OrderPopup from "../components/OrderPopup/OrderPopup";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
@@ -33,6 +34,7 @@ const Home = () => {
         <Banner />
         <BannerPic img={Banner2} />
         <Testimonial />
+        <Footer />
         <OrderPopup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
       </div>
     </>

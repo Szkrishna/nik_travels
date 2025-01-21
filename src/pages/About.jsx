@@ -1,6 +1,8 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import BlogsComp from "../components/Blogs/BlogsComp";
 import Location from "../components/Location/Location";
+import Footer from "../components/Footer/Footer";
 
 const About = () => {
   return (
@@ -34,6 +36,7 @@ const About = () => {
       </div>
       <Location />
       <BlogsComp />
+      <Footer />
     </>
   );
 };
