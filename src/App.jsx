@@ -5,6 +5,7 @@ import Layout from './pages/Layout';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Blogs from './pages/Blog';
 import BlogsDetails from "./pages/BlogsDetails";
+import PlacesRoute from "./pages/PlacesRoute";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
             <Route index element={<Home />} />
             <Route path="blogs" element={<Blogs />} />
             <Route path="blogs/:id" element={<BlogsDetails />} />
+            <Route path="best-places" element={<PlacesRoute />} />
           </Route>
         </Routes>
       </BrowserRouter>
