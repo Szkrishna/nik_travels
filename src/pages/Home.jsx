@@ -13,11 +13,11 @@ import Places from "../components/Places/Places";
 // import OrderPopup from "../components/OrderPopup/OrderPopup";
 
 const Home = () => {
-//   const [orderPopup, setOrderPopup] = React.useState(false);
+  const [orderPopup, setOrderPopup] = React.useState(false);
 
-//   const handleOrderPopup = () => {
-//     setOrderPopup(!orderPopup);
-//   };
+  const handleOrderPopup = () => {
+    setOrderPopup(!orderPopup);
+  };
   return (
     <>
       <div>

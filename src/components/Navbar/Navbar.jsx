@@ -54,7 +54,7 @@ const Navbar = ({ handleOrderPopup }) => {
                     <div className="container mx-auto py-1 sm:block hidden">
                         <div className="flex items-center justify-between sm:flex-row flex-col">
                             <p className="text-sm mb-2 sm:mb-0">
-                                🎉 20% off on your next booking!
+                                <span className="text-gray-400">🎉</span> 20% off on your next booking!
                             </p>
                             <p className="text-sm font-medium">
                                 📞 Call us: <a href="tel:+91123456789" className="underline">+91 123456789</a>
@@ -119,28 +119,16 @@ const Navbar = ({ handleOrderPopup }) => {
                             </ul>
                         </div>
                         <div className="flex items-center gap-4">
-                            <button
-                                className="bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-full"
-                                onClick={() => {
-                                    handleOrderPopup();
-                                }}
-                            >
+                            <button onClick={() => { handleOrderPopup(); }}
+                                className="bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-full">
                                 Book Now
                             </button>
                             {/* Mobile Hamburger icon */}
                             <div className="md:hidden block">
                                 {showMenu ? (
-                                    <HiMenuAlt1
-                                        onClick={toggleMenu}
-                                        className=" cursor-pointer transition-all"
-                                        size={30}
-                                    />
+                                    <HiMenuAlt1 onClick={toggleMenu} className=" cursor-pointer transition-all" size={30} />
                                 ) : (
-                                    <HiMenuAlt3
-                                        onClick={toggleMenu}
-                                        className="cursor-pointer transition-all"
-                                        size={30}
-                                    />
+                                    <HiMenuAlt3 onClick={toggleMenu} className="cursor-pointer transition-all" size={30} />
                                 )}
                             </div>
                         </div>
