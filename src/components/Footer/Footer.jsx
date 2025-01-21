@@ -38,7 +38,7 @@ const FooterLinks = [
 const Footer = () => {
   return (
     <>
-      <div className=" dark:bg-gray-950 md:py-16 py-8 relative overflow-hidden">
+      <div className=" dark:bg-gray-950 py-8 relative overflow-hidden">
         <video autoPlay loop muted className="absolute right-0 top-0 h-full overflow-hidden w-full object-cover z-[-1]">
           <source src={NatureVid} type="video/mp4" />
         </video>
@@ -46,10 +46,10 @@ const Footer = () => {
           <div className="grid md:grid-cols-3 bg-white/80 backdrop-blur-sm rounded-t-xl gap-8">
             {/* Logo and About Section */}
             <div className="md:py-8 px-8">
-              <h1 className="flex justify-center items-center gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left">
+              <h1 className="flex justify-start items-center gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left">
                 <img src={FooterLogo} alt="" className="max-h-[100px]" />
               </h1>
-              <p className="text-sm pt-4 px-4">
+              <p className="text-sm pt-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde facere
                 ab hic accusamus omnis dolor.
               </p>
