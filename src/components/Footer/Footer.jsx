@@ -71,13 +71,16 @@ const Footer = () => {
                 <p>+91 123456789</p>
               </div>
               <div className="flex items-center gap-3 mt-6">
-                <a href="#">
+                <a href="https://instagram.com" title="Instagram" target="_blank" rel="noopener noreferrer"
+                  className="text-purple-500 hover:text-pink-500 transition-colors">
                   <FaInstagram className="text-2xl" />
                 </a>
-                <a href="#">
+                <a href="https://facebook.com" title="Facebook" target="_blank" rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-800 transition-colors">
                   <FaFacebook className="text-2xl" />
                 </a>
-                <a href="#">
+                <a href="https://linkedin.com" title="LinkedIn" target="_blank" rel="noopener noreferrer"
+                  className="text-blue-500 hover:text-blue-700 transition-colors">
                   <FaLinkedin className="text-2xl" />
                 </a>
               </div>
