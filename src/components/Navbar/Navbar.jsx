@@ -9,18 +9,22 @@ import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 
 export const NavbarLinks = [
     {
+        id: 1,
         name: "Home",
         link: "/",
     },
     {
+        id: 2,
         name: "About",
         link: "/about",
     },
     {
+        id: 3,
         name: "Blogs",
         link: "/blogs",
     },
     {
+        id: 4,
         name: "Best Places",
         link: "/best-places",
     },

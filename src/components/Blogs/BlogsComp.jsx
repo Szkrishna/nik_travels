@@ -16,7 +16,7 @@ const BlogsData = [
     date: "April 22, 2022",
   },
   {
-    id: 1,
+    id: 2,
     image: Img2,
     title: "Top places to visit in US",
     description:
@@ -25,7 +25,7 @@ const BlogsData = [
     date: "April 22, 2022",
   },
   {
-    id: 1,
+    id: 3,
     image: Img3,
     title: "Top places to visit in Japan",
     description:
