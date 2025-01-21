@@ -15,7 +15,7 @@ const UnderConstructionCont = () => {
     };
     return (
         <div className="pt-[117px]">
-            <div className="bg-gradient-to-r from-violet-200 to-fuchsia-200 min-h-[84vh] text-gray-800">
+            <div className="bg-pink-50 min-h-[84vh] text-gray-800">
                 <div className="text-center pt-32">
                     <div className="mb-8">
                         <h1 style={{ lineHeight: '64px' }} className="text-5xl font-bold bg-clip-text text-transparent text-green-800">
@@ -58,7 +58,7 @@ const UnderConstructionCont = () => {
             </div>
             
             {contactPopups && (
-                <ContactPopup ContactPopup={contactPopups} setContactPopup={setContactPopup} />
+                <ContactPopup setContactPopup={setContactPopup} />
             )}
         </div>
     );

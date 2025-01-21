@@ -35,17 +35,17 @@ const DropdownLinks = [
     {
         id: 5,
         name: "Our Services",
-        link: "/#services",
+        link: "/coming-soon",
     },
     {
         id: 6,
         name: "Top Brands",
-        link: "/#mobile_brands",
+        link: "/coming-soon",
     },
     {
         id: 7,
         name: "Location",
-        link: "/#location",
+        link: "/coming-soon",
     },
 ];
 
