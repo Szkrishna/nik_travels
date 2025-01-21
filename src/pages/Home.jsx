@@ -7,10 +7,8 @@ import Places from "../components/Places/Places";
 import BannerPic from "../components/BannerPic/BannerPic";
 import BannerImg from "../assets/cover-women.jpg";
 import BlogsComp from "../components/Blogs/BlogsComp";
-// import Testimonial from "../components/Testimonial/Testimonial";
-// import Banner from "../components/Banner/Banner";
-// import Banner2 from "../assets/travel-cover2.jpg";
-// import OrderPopup from "../components/OrderPopup/OrderPopup";
+import Banner from "../components/Banner/Banner";
+import Banner2 from "../assets/travel-cover2.jpg";
 
 const Home = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
@@ -30,10 +28,8 @@ const Home = () => {
         <Places handleOrderPopup={handleOrderPopup} />
         <BannerPic img={BannerImg} />
         <BlogsComp />
-        {/* <Banner /> */}
-        {/* <BannerPic img={Banner2} /> */}
-        {/* <Testimonial /> */}
-        {/* <OrderPopup orderPopup={orderPopup} setOrderPopup={setOrderPopup} /> */}
+        <Banner />
+        <BannerPic img={Banner2} />
       </div>
     </>
   );
