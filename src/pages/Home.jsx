@@ -6,7 +6,7 @@ import NatureVid from "../assets/video/main.mp4";
 import Places from "../components/Places/Places";
 import BannerPic from "../components/BannerPic/BannerPic";
 import BannerImg from "../assets/cover-women.jpg";
-// import BlogsComp from "../components/Blogs/BlogsComp";
+import BlogsComp from "../components/Blogs/BlogsComp";
 // import Testimonial from "../components/Testimonial/Testimonial";
 // import Banner from "../components/Banner/Banner";
 // import Banner2 from "../assets/travel-cover2.jpg";
@@ -29,7 +29,7 @@ const Home = () => {
         </div>
         <Places handleOrderPopup={handleOrderPopup} />
         <BannerPic img={BannerImg} />
-        {/* <BlogsComp /> */}
+        <BlogsComp />
         {/* <Banner /> */}
         {/* <BannerPic img={Banner2} /> */}
         {/* <Testimonial /> */}
