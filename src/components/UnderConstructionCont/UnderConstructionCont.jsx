@@ -5,8 +5,14 @@ import {
     FaLinkedin,
     FaFacebook
 } from "react-icons/fa";
+import ContactPopup from '../ContactPopup/ContactPopup';
 
 const UnderConstructionCont = () => {
+    const [contactPopups, setContactPopup] = React.useState(false);
+
+    const handleContactClick = () => {
+        setContactPopup(!contactPopups);
+    };
     return (
         <div className="pt-[117px]">
             <div className="bg-gradient-to-r from-violet-200 to-fuchsia-200 min-h-[84vh] text-gray-800">
@@ -20,10 +26,11 @@ const UnderConstructionCont = () => {
                             <br />
                             If you have any questions, feel free to reach out.
                         </p>
-                        <a href="mailto:user@example.com"
+                        <button
+                            onClick={handleContactClick}
                             className="px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg shadow-md hover:shadow-lg hover:from-purple-600 hover:to-pink-600 transition-transform transform hover:scale-105">
                             Contact Us
-                        </a>
+                        </button>
                     </div>
                 </div>
                 <div className="text-center mt-16">
@@ -49,6 +56,10 @@ const UnderConstructionCont = () => {
                     </div>
                 </div>
             </div>
+            
+            {contactPopups && (
+                <ContactPopup ContactPopup={contactPopups} setContactPopup={setContactPopup} />
+            )}
         </div>
     );
 }
