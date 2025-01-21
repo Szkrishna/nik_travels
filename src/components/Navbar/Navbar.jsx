@@ -59,7 +59,7 @@ const Navbar = ({ handleOrderPopup }) => {
         <>
             <nav className="fixed top-0 right-0 w-full z-50 bg-white backdrop-blur-sm text-black shadow-md">
                 <div className="bg-gradient-to-r from-primary to-secondary text-white">
-                    <div className="container mx-auto py-1 sm:block hidden">
+                    <div className="container mx-auto py-2 sm:block hidden">
                         <div className="flex items-center justify-between sm:flex-row flex-col">
                             <p className="text-sm mb-2 sm:mb-0">
                                 <span className="text-gray-400">🎉</span> 20% off on your next booking!
@@ -74,7 +74,7 @@ const Navbar = ({ handleOrderPopup }) => {
                     <div className="flex justify-between items-center">
                         <div className="flex items-center gap-4 font-bold text-2xl">
                             <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
-                                <img src={Logo} alt="" className="h-24" />
+                                <img src={Logo} alt="" className="h-20 py-1" />
                             </Link>
                         </div>
                         <div className="hidden md:block">

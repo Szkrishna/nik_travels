@@ -54,7 +54,7 @@ const Footer = () => {
               <h1 className="flex justify-center items-center gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left">
                 <img src={FooterLogo} alt="" className="max-h-[100px]" />
               </h1>
-              <p className="text-sm pt-3">
+              <p className="text-sm pt-4 px-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde facere
                 ab hic accusamus omnis dolor.
               </p>

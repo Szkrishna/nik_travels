@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import TravelImg from "../../assets/travelbox.png";
 import { MdFlight, MdOutlineLocalHotel } from "react-icons/md";
@@ -21,16 +22,10 @@ const Banner = () => {
               </div>
               {/* text content section */}
               <div className="flex flex-col justify-center gap-6 sm:pt-0 lg:px-16">
-                <h1
-                  data-aos="fade-up"
-                  className="text-3xl sm:text-4xl font-bold"
-                >
+                <h1 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold">
                   Explore all corners of The world with us
                 </h1>
-                <p
-                  data-aos="fade-up"
-                  className="text-sm text-gray-500 tracking-wide leading-8"
-                >
+                <p data-aos="fade-up" className="text-sm text-gray-500 tracking-wide leading-8">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Eaque reiciendis inventore iste ratione ex alias quis magni at
                   optio ratione ex alias quis magni at optio
