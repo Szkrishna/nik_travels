@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import BlogCard from "./BlogCard";
-import Img1 from "../../assets/places/tajmahal.jpg";
-import Img2 from "../../assets/places/water.jpg";
-import Img3 from "../../assets/places/boat.jpg";
+import Img1 from "../../assets/places/taj-mahal.jpg";
+import Img2 from "../../assets/places/usa-beach.jpg";
+import Img3 from "../../assets/places/japan-night.jpg";
 
 const BlogsData = [
   {
