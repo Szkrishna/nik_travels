@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
-import Logo1 from "../../assets/logo1.png";
+import Logo1 from "../../assets/caravan.png";
 import Logo2 from "../../assets/logo2.png";
 import { NavLink, Link } from "react-router-dom";
 import { FaCaretDown } from "react-icons/fa";
@@ -78,14 +78,14 @@ const Navbar = ({ handleOrderPopup }) => {
                         <div className="flex items-center gap-4 font-bold text-2xl">
                             <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
                                 <motion.img
-                                    initial={{ x: 0, opacity: 1 }} 
-                                    animate={{ x: 300, opacity: 0.5 }} 
-                                    transition={{ duration: 3, delay: 1, repeat: 1, repeatType: "reverse" }}
+                                    initial={{ x: 50 }} 
+                                    animate={{ x: 400 }} 
+                                    transition={{ duration: 5, delay: 1, repeat: 1, repeatType: "reverse" }}
                                     src={Logo1}
                                     alt="logo-img"
                                     className="h-12 pt-1"
                                 />
-                                <img src={Logo2} alt="logo-text" className="h-8 pb-1" />
+                                <img src={Logo2} alt="logo-text" className="h-10 pb-1" />
                             </Link>
                         </div>
                         <div className="hidden md:block">
