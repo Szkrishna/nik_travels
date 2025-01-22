@@ -38,23 +38,6 @@ const FooterLinks = [
 ];
 
 const Footer = () => {
-  // const [hovering, setHovering] = useState(false);
-
-  // const handleMouseEnter = () => setHovering(true);
-  // const handleMouseLeave = () => setHovering(false);
-
-  // const variants = {
-  //   visible: { opacity: 1, x: 0, y: 0 },
-  //   hidden: {
-  //     opacity: 0.5,
-  //     x: 1000,
-  //     y: -130,
-  //     transition: { duration: 10 },
-  //   },
-  // };
-
-
-
   const [hovering, setHovering] = useState(false);
   const timeoutRef = useRef(null);
 
@@ -67,7 +50,7 @@ const Footer = () => {
 
     timeoutRef.current = setTimeout(() => {
       setHovering(false);
-    }, 10000); // 10 seconds
+    }, 10000);
   };
 
   const handleMouseLeave = () => {
@@ -84,7 +67,7 @@ const Footer = () => {
       opacity: 0.5,
       x: 1000,
       y: -130,
-      transition: { duration: 10 },
+      transition: { duration: 10, delay: 1 },
     },
   };
 
@@ -114,9 +97,9 @@ const Footer = () => {
               }}
               className="gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left"
             >
-              <img src={FooterLogo1} alt="" className="max-h-[100px]" />
+              <img src={FooterLogo1} alt="logo-img" className="max-h-[100px]" />
             </motion.div>
-            <img src={FooterLogo2} alt="" className="max-h-[100px]" />
+            <img src={FooterLogo2} alt="logo-text" className="max-h-[100px]" />
           </div>
 
           <div className="md:py-6 px-8">
