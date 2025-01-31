@@ -114,28 +114,28 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-3 cursor-pointer hover:translate-y-1 duration-200">
               <FaMobileAlt className="text-green-500" />
-              <p>+91 123456789</p>
+              <p>+91 9792903325</p>
             </div>
           </div>
 
           <div className="md:py-6 px-8">
             <h1 className="text-xl font-bold mb-4">Social</h1>
             <div className="mb-4">
-              <a href="https://instagram.com" title="Instagram" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.instagram.com/niktravels.in/" title="Instagram" target="_blank" rel="noopener noreferrer"
                 className="flex items-center gap-2 cursor-pointer hover:translate-x-0.5 hover:translate-y-0.5 duration-250">
                 <FaInstagram className="text-purple-500 hover:text-pink-500 transition-colors text-xl" />
                 <p>Instragram</p>
               </a>
             </div>
             <div className="mb-4">
-              <a href="https://facebook.com" title="Facebook" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.facebook.com/profile.php?id=61572564125766" title="Facebook" target="_blank" rel="noopener noreferrer"
                 className="flex items-center gap-2 cursor-pointer hover:translate-x-0.5 hover:translate-y-0.5 duration-150">
                 <FaFacebook className="text-blue-600 hover:text-blue-800 transition-colors text-xl" />
                 <p>Facebook</p>
               </a>
             </div>
             <div>
-              <a href="https://linkedin.com" title="LinkedIn" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.linkedin.com/company/nik-travels/" title="LinkedIn" target="_blank" rel="noopener noreferrer"
                 className="flex items-center gap-2 cursor-pointer hover:translate-x-0.5 hover:translate-y-0.5 duration-250">
                 <FaLinkedin className="text-blue-500 hover:text-blue-700 transition-colors text-xl" />
                 <p>Linkedin</p>

@@ -13,18 +13,12 @@ const About = () => {
             About us
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-            ducimus cupiditate quo harum officia perspiciatis hic ut sunt
-            repudiandae, laboriosam expedita nostrum tempora, consectetur
-            itaque, voluptate error aperiam corrupti ullam aspernatur a!
-            Dolorem, reprehenderit amet quidem deleniti iure rem vel a enim
-            ipsam hic numquam consequatur eius id eaque accusamus repudiandae
-            impedit, quisquam non, harum inventore ratione? Tempora voluptatum
-            ut eligendi corrupti esse, repellat nesciunt illum facilis officiis?
-            Nisi quidem officiis asperiores nostrum ipsa maiores explicabo quia!
-            Corporis provident asperiores fuga eligendi rem temporibus possimus
-            autem excepturi! Facilis sunt corrupti nesciunt asperiores, ab
-            consectetur doloremque, velit a mollitia possimus quaerat!
+            Where every journey tells a story... 🌍✈️ At Nik Travels, we believe that traveling isn't just about 
+            reaching a destination - it's about the laughter you share along the way, the unexpected adventures 
+            you stumble upon, and the memories that stay with you long after your return home. Whether you're 
+            chasing sunsets across foreign horizons, reconnecting with loved ones, or finding yourself in unfamiliar 
+            streets, we'll craft your perfect journey. Every trip we plan is personalized with love and care, drawing 
+            from our own experiences and insider knowledge to create experiences that truly feel like yours.
           </p>
         </div>
       </div>
