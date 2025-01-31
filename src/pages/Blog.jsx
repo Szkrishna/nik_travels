@@ -6,7 +6,7 @@ import Footer from "../components/Footer/Footer";
 const Blogs = () => {
   return (
     <div>
-      <div className="min-h-screen pt-14 bg-gray-100">
+      <div className="min-h-screen pt-20 bg-gray-100">
         <BlogsComp />
       </div>
       <Footer />

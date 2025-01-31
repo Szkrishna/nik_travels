@@ -65,10 +65,10 @@ const Navbar = ({ handleOrderPopup }) => {
                     <div className="container mx-auto py-2 sm:block hidden">
                         <div className="flex items-center justify-between sm:flex-row flex-col">
                             <p className="text-sm mb-2 sm:mb-0">
-                                <span className="text-gray-400">🎉</span> 20% off on your next booking!
+                                <span className="text-gray-400">🎉</span> Book now, get 25% off!
                             </p>
                             <p className="text-sm font-medium">
-                                📞 Call us: <a href="tel:+91123456789" className="underline">+91 123456789</a>
+                                📞 Call us: <a href="tel:+91123456789" className="underline">+91-9792903325</a>
                             </p>
                         </div>
                     </div>
@@ -78,8 +78,8 @@ const Navbar = ({ handleOrderPopup }) => {
                         <div className="flex items-center gap-4 font-bold text-2xl">
                             <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
                                 <motion.img
-                                    initial={{ x: 50 }} 
-                                    animate={{ x: 400 }} 
+                                    initial={{ x: 0 }}
+                                    animate={{ x: 400 }}
                                     transition={{ duration: 5, delay: 1, repeat: 1, repeatType: "reverse" }}
                                     src={Logo1}
                                     alt="logo-img"

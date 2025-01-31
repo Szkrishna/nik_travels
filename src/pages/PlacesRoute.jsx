@@ -6,7 +6,7 @@ import Footer from "../components/Footer/Footer";
 const PlacesRoute = () => {
   return (
     <>
-      <div className="pt-14">
+      <div className="pt-20">
         <Places />
         <Footer />
       </div>

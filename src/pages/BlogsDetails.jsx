@@ -10,7 +10,7 @@ const BlogsDetails = (props) => {
   const { image, date, title, description, author } = location.state;
 
   return (
-    <div className=" pt-20">
+    <div className="pt-20">
       <div className="h-[500px] overflow-hidden">
         <img src={image} alt={title} className="mx-auto h-[500px] w-full object-cover transition duration-700 hover:scale-110"/>
       </div>
