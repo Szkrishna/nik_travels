@@ -11,6 +11,7 @@ import NoPage from "./pages/NoPage";
 import UnderConstruction from "./pages/UnderConstruction";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { SignedIn, SignedOut, SignIn, SignUp, UserButton } from "@clerk/clerk-react";
 
 const App = () => {
   React.useEffect(() => {
@@ -26,6 +27,7 @@ const App = () => {
     <>
       <BrowserRouter>
         <Routes>
+          {/* Main Layout with Navbar and Authentication UI */}
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="blogs" element={<Blogs />} />
@@ -35,6 +37,19 @@ const App = () => {
             <Route path="*" element={<NoPage />} />
             <Route path="coming-soon" element={<UnderConstruction />} />
           </Route>
+
+          {/* Authentication Routes */}
+          <Route path="/login" element={
+            <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
+              <SignIn />
+            </div>
+          } />
+          <Route path="/signup" element={
+            <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
+              <SignUp />
+            </div>
+          } />
+
         </Routes>
       </BrowserRouter>
     </>
